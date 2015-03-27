@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<script type="text/javascript" src='./ficker.min.js'></script>
+        <script>
+            function myFunction(message)
+            {
+                message = message ||"1";
+                var msg = Flicker.serialize(message);
+                var data = "";
+                for(var i=0;i<msg.length;i++){
+                    data = data + msg[i];
+                }
+                //alert(data);
+                return data;
+            }
+            </script>
+    </head>
+    <button onclick="myFunction('1212')"></button>
+</html>

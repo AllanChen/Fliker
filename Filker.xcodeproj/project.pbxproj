@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D6D59FA1AC3D4CF00878C99 /* pVar.html in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D59F91AC3D4CF00878C99 /* pVar.html */; };
+		9D6D59FC1AC3DB0400878C99 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6D59FB1AC3DB0400878C99 /* AVFoundation.framework */; };
+		9D6D59FE1AC3EE9A00878C99 /* ficker.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D59FD1AC3EE9A00878C99 /* ficker.min.js */; };
+		9D6D5A001AC3F38900878C99 /* flicker.js in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D59FF1AC3F38900878C99 /* flicker.js */; };
+		9D6D5A041AC4037700878C99 /* OpenGLFlashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D5A021AC4037700878C99 /* OpenGLFlashViewController.m */; };
+		9D6D5A051AC4037700878C99 /* OpenGLFlashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D5A031AC4037700878C99 /* OpenGLFlashViewController.xib */; };
+		9D9DDD481AB90BD600EE1EE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD471AB90BD600EE1EE5 /* main.m */; };
+		9D9DDD4B1AB90BD600EE1EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD4A1AB90BD600EE1EE5 /* AppDelegate.m */; };
+		9D9DDD4E1AB90BD600EE1EE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD4D1AB90BD600EE1EE5 /* ViewController.m */; };
+		9D9DDD511AB90BD600EE1EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9DDD4F1AB90BD600EE1EE5 /* Main.storyboard */; };
+		9D9DDD531AB90BD600EE1EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9DDD521AB90BD600EE1EE5 /* Images.xcassets */; };
+		9D9DDD561AB90BD600EE1EE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9DDD541AB90BD600EE1EE5 /* LaunchScreen.xib */; };
+		9D9DDD621AB90BD600EE1EE5 /* FilkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD611AB90BD600EE1EE5 /* FilkerTests.m */; };
+		9D9DDD6D1AB93EAE00EE1EE5 /* Binary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD6C1AB93EAE00EE1EE5 /* Binary.m */; };
+		9D9DDD701AB941D500EE1EE5 /* UIActionSheet+Binary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD6F1AB941D500EE1EE5 /* UIActionSheet+Binary.m */; };
+		9D9DDD731AB941E800EE1EE5 /* NSArray+Binary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD721AB941E800EE1EE5 /* NSArray+Binary.m */; };
+		9D9DDD761AB942A400EE1EE5 /* BinaryArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD751AB942A400EE1EE5 /* BinaryArray.m */; };
+		9D9DDD781AB9552200EE1EE5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9DDD771AB9552200EE1EE5 /* OpenGLES.framework */; };
+		9D9DDD7A1AB9553200EE1EE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9DDD791AB9553200EE1EE5 /* QuartzCore.framework */; };
+		9D9DDD7C1AB9553F00EE1EE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9DDD7B1AB9553F00EE1EE5 /* CoreGraphics.framework */; };
+		9D9DDD831AB9685700EE1EE5 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDD821AB9685700EE1EE5 /* OpenGLView.m */; };
+		9D9DDD851AB96BA800EE1EE5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9DDD841AB96BA800EE1EE5 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D9DDD5C1AB90BD600EE1EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D9DDD3A1AB90BD600EE1EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D9DDD411AB90BD600EE1EE5;
+			remoteInfo = Filker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D6D59F91AC3D4CF00878C99 /* pVar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pVar.html; sourceTree = "<group>"; };
+		9D6D59FB1AC3DB0400878C99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9D6D59FD1AC3EE9A00878C99 /* ficker.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ficker.min.js; sourceTree = "<group>"; };
+		9D6D59FF1AC3F38900878C99 /* flicker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = flicker.js; sourceTree = "<group>"; };
+		9D6D5A011AC4037700878C99 /* OpenGLFlashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLFlashViewController.h; sourceTree = "<group>"; };
+		9D6D5A021AC4037700878C99 /* OpenGLFlashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLFlashViewController.m; sourceTree = "<group>"; };
+		9D6D5A031AC4037700878C99 /* OpenGLFlashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenGLFlashViewController.xib; sourceTree = "<group>"; };
+		9D9DDD421AB90BD600EE1EE5 /* Filker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9DDD461AB90BD600EE1EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9DDD471AB90BD600EE1EE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D9DDD491AB90BD600EE1EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D9DDD4A1AB90BD600EE1EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D9DDD4C1AB90BD600EE1EE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D9DDD4D1AB90BD600EE1EE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D9DDD501AB90BD600EE1EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D9DDD521AB90BD600EE1EE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D9DDD551AB90BD600EE1EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9D9DDD5B1AB90BD600EE1EE5 /* FilkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9DDD601AB90BD600EE1EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9DDD611AB90BD600EE1EE5 /* FilkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilkerTests.m; sourceTree = "<group>"; };
+		9D9DDD6B1AB93EAE00EE1EE5 /* Binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Binary.h; sourceTree = "<group>"; };
+		9D9DDD6C1AB93EAE00EE1EE5 /* Binary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Binary.m; sourceTree = "<group>"; };
+		9D9DDD6E1AB941D500EE1EE5 /* UIActionSheet+Binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Binary.h"; sourceTree = "<group>"; };
+		9D9DDD6F1AB941D500EE1EE5 /* UIActionSheet+Binary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Binary.m"; sourceTree = "<group>"; };
+		9D9DDD711AB941E800EE1EE5 /* NSArray+Binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Binary.h"; sourceTree = "<group>"; };
+		9D9DDD721AB941E800EE1EE5 /* NSArray+Binary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Binary.m"; sourceTree = "<group>"; };
+		9D9DDD741AB942A400EE1EE5 /* BinaryArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryArray.h; sourceTree = "<group>"; };
+		9D9DDD751AB942A400EE1EE5 /* BinaryArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryArray.m; sourceTree = "<group>"; };
+		9D9DDD771AB9552200EE1EE5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9D9DDD791AB9553200EE1EE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9D9DDD7B1AB9553F00EE1EE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D9DDD811AB9685700EE1EE5 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		9D9DDD821AB9685700EE1EE5 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		9D9DDD841AB96BA800EE1EE5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D9DDD3F1AB90BD600EE1EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6D59FC1AC3DB0400878C99 /* AVFoundation.framework in Frameworks */,
+				9D9DDD851AB96BA800EE1EE5 /* GLKit.framework in Frameworks */,
+				9D9DDD7C1AB9553F00EE1EE5 /* CoreGraphics.framework in Frameworks */,
+				9D9DDD7A1AB9553200EE1EE5 /* QuartzCore.framework in Frameworks */,
+				9D9DDD781AB9552200EE1EE5 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9DDD581AB90BD600EE1EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D6D59F61AC3D37C00878C99 /* FW */ = {
+			isa = PBXGroup;
+			children = (
+				9D6D59FB1AC3DB0400878C99 /* AVFoundation.framework */,
+				9D9DDD841AB96BA800EE1EE5 /* GLKit.framework */,
+				9D9DDD7B1AB9553F00EE1EE5 /* CoreGraphics.framework */,
+				9D9DDD791AB9553200EE1EE5 /* QuartzCore.framework */,
+				9D9DDD771AB9552200EE1EE5 /* OpenGLES.framework */,
+			);
+			name = FW;
+			sourceTree = "<group>";
+		};
+		9D6D59F71AC3D4CF00878C99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D6D59F81AC3D4CF00878C99 /* Html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D6D59F81AC3D4CF00878C99 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				9D6D59FF1AC3F38900878C99 /* flicker.js */,
+				9D6D59FD1AC3EE9A00878C99 /* ficker.min.js */,
+				9D6D59F91AC3D4CF00878C99 /* pVar.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		9D6D5A061AC406C600878C99 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9D9DDD6B1AB93EAE00EE1EE5 /* Binary.h */,
+				9D9DDD6C1AB93EAE00EE1EE5 /* Binary.m */,
+				9D9DDD6E1AB941D500EE1EE5 /* UIActionSheet+Binary.h */,
+				9D9DDD6F1AB941D500EE1EE5 /* UIActionSheet+Binary.m */,
+				9D9DDD711AB941E800EE1EE5 /* NSArray+Binary.h */,
+				9D9DDD721AB941E800EE1EE5 /* NSArray+Binary.m */,
+				9D9DDD741AB942A400EE1EE5 /* BinaryArray.h */,
+				9D9DDD751AB942A400EE1EE5 /* BinaryArray.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		9D9DDD391AB90BD600EE1EE5 = {
+			isa = PBXGroup;
+			children = (
+				9D6D59F71AC3D4CF00878C99 /* Resources */,
+				9D6D59F61AC3D37C00878C99 /* FW */,
+				9D9DDD441AB90BD600EE1EE5 /* Filker */,
+				9D9DDD5E1AB90BD600EE1EE5 /* FilkerTests */,
+				9D9DDD431AB90BD600EE1EE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D9DDD431AB90BD600EE1EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D9DDD421AB90BD600EE1EE5 /* Filker.app */,
+				9D9DDD5B1AB90BD600EE1EE5 /* FilkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D9DDD441AB90BD600EE1EE5 /* Filker */ = {
+			isa = PBXGroup;
+			children = (
+				9D9DDD811AB9685700EE1EE5 /* OpenGLView.h */,
+				9D9DDD821AB9685700EE1EE5 /* OpenGLView.m */,
+				9D9DDD491AB90BD600EE1EE5 /* AppDelegate.h */,
+				9D9DDD4A1AB90BD600EE1EE5 /* AppDelegate.m */,
+				9D9DDD4C1AB90BD600EE1EE5 /* ViewController.h */,
+				9D9DDD4D1AB90BD600EE1EE5 /* ViewController.m */,
+				9D6D5A011AC4037700878C99 /* OpenGLFlashViewController.h */,
+				9D6D5A021AC4037700878C99 /* OpenGLFlashViewController.m */,
+				9D6D5A031AC4037700878C99 /* OpenGLFlashViewController.xib */,
+				9D9DDD4F1AB90BD600EE1EE5 /* Main.storyboard */,
+				9D9DDD521AB90BD600EE1EE5 /* Images.xcassets */,
+				9D9DDD541AB90BD600EE1EE5 /* LaunchScreen.xib */,
+				9D9DDD451AB90BD600EE1EE5 /* Supporting Files */,
+				9D6D5A061AC406C600878C99 /* Helper */,
+			);
+			path = Filker;
+			sourceTree = "<group>";
+		};
+		9D9DDD451AB90BD600EE1EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9DDD461AB90BD600EE1EE5 /* Info.plist */,
+				9D9DDD471AB90BD600EE1EE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D9DDD5E1AB90BD600EE1EE5 /* FilkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D9DDD611AB90BD600EE1EE5 /* FilkerTests.m */,
+				9D9DDD5F1AB90BD600EE1EE5 /* Supporting Files */,
+			);
+			path = FilkerTests;
+			sourceTree = "<group>";
+		};
+		9D9DDD5F1AB90BD600EE1EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9DDD601AB90BD600EE1EE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D9DDD411AB90BD600EE1EE5 /* Filker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9DDD651AB90BD600EE1EE5 /* Build configuration list for PBXNativeTarget "Filker" */;
+			buildPhases = (
+				9D9DDD3E1AB90BD600EE1EE5 /* Sources */,
+				9D9DDD3F1AB90BD600EE1EE5 /* Frameworks */,
+				9D9DDD401AB90BD600EE1EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Filker;
+			productName = Filker;
+			productReference = 9D9DDD421AB90BD600EE1EE5 /* Filker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D9DDD5A1AB90BD600EE1EE5 /* FilkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9DDD681AB90BD600EE1EE5 /* Build configuration list for PBXNativeTarget "FilkerTests" */;
+			buildPhases = (
+				9D9DDD571AB90BD600EE1EE5 /* Sources */,
+				9D9DDD581AB90BD600EE1EE5 /* Frameworks */,
+				9D9DDD591AB90BD600EE1EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D9DDD5D1AB90BD600EE1EE5 /* PBXTargetDependency */,
+			);
+			name = FilkerTests;
+			productName = FilkerTests;
+			productReference = 9D9DDD5B1AB90BD600EE1EE5 /* FilkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D9DDD3A1AB90BD600EE1EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ChanAllan;
+				TargetAttributes = {
+					9D9DDD411AB90BD600EE1EE5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9D9DDD5A1AB90BD600EE1EE5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9D9DDD411AB90BD600EE1EE5;
+					};
+				};
+			};
+			buildConfigurationList = 9D9DDD3D1AB90BD600EE1EE5 /* Build configuration list for PBXProject "Filker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D9DDD391AB90BD600EE1EE5;
+			productRefGroup = 9D9DDD431AB90BD600EE1EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D9DDD411AB90BD600EE1EE5 /* Filker */,
+				9D9DDD5A1AB90BD600EE1EE5 /* FilkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D9DDD401AB90BD600EE1EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9DDD511AB90BD600EE1EE5 /* Main.storyboard in Resources */,
+				9D6D59FA1AC3D4CF00878C99 /* pVar.html in Resources */,
+				9D9DDD561AB90BD600EE1EE5 /* LaunchScreen.xib in Resources */,
+				9D6D5A051AC4037700878C99 /* OpenGLFlashViewController.xib in Resources */,
+				9D9DDD531AB90BD600EE1EE5 /* Images.xcassets in Resources */,
+				9D6D59FE1AC3EE9A00878C99 /* ficker.min.js in Resources */,
+				9D6D5A001AC3F38900878C99 /* flicker.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9DDD591AB90BD600EE1EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D9DDD3E1AB90BD600EE1EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9DDD6D1AB93EAE00EE1EE5 /* Binary.m in Sources */,
+				9D9DDD701AB941D500EE1EE5 /* UIActionSheet+Binary.m in Sources */,
+				9D9DDD761AB942A400EE1EE5 /* BinaryArray.m in Sources */,
+				9D9DDD4E1AB90BD600EE1EE5 /* ViewController.m in Sources */,
+				9D9DDD4B1AB90BD600EE1EE5 /* AppDelegate.m in Sources */,
+				9D9DDD481AB90BD600EE1EE5 /* main.m in Sources */,
+				9D6D5A041AC4037700878C99 /* OpenGLFlashViewController.m in Sources */,
+				9D9DDD731AB941E800EE1EE5 /* NSArray+Binary.m in Sources */,
+				9D9DDD831AB9685700EE1EE5 /* OpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9DDD571AB90BD600EE1EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9DDD621AB90BD600EE1EE5 /* FilkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D9DDD5D1AB90BD600EE1EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D9DDD411AB90BD600EE1EE5 /* Filker */;
+			targetProxy = 9D9DDD5C1AB90BD600EE1EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D9DDD4F1AB90BD600EE1EE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9DDD501AB90BD600EE1EE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D9DDD541AB90BD600EE1EE5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9DDD551AB90BD600EE1EE5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D9DDD631AB90BD600EE1EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D9DDD641AB90BD600EE1EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D9DDD661AB90BD600EE1EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Filker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D9DDD671AB90BD600EE1EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Filker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D9DDD691AB90BD600EE1EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FilkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filker.app/Filker";
+			};
+			name = Debug;
+		};
+		9D9DDD6A1AB90BD600EE1EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FilkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filker.app/Filker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D9DDD3D1AB90BD600EE1EE5 /* Build configuration list for PBXProject "Filker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9DDD631AB90BD600EE1EE5 /* Debug */,
+				9D9DDD641AB90BD600EE1EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9DDD651AB90BD600EE1EE5 /* Build configuration list for PBXNativeTarget "Filker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9DDD661AB90BD600EE1EE5 /* Debug */,
+				9D9DDD671AB90BD600EE1EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9DDD681AB90BD600EE1EE5 /* Build configuration list for PBXNativeTarget "FilkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9DDD691AB90BD600EE1EE5 /* Debug */,
+				9D9DDD6A1AB90BD600EE1EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D9DDD3A1AB90BD600EE1EE5 /* Project object */;
+}
